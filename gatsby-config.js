@@ -90,7 +90,7 @@ module.exports = {
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://toitro.me`,
     // Used for SEO
-    siteDescription: ``,
+    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
     // Will be set on the <html /> tag
     siteLanguage: `vi`,
     // Used for og:image and must be placed inside the `static` folder
