@@ -31,12 +31,16 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
             title: `About`,
             slug: `/about`,
+          },
+          {
+            title: `Art`,
+            slug: `/art`,
+          },
+          {
+            title: `Somethings`,
+            slug: `/blog`,
           },
         ],
         externalLinks: [
@@ -46,7 +50,7 @@ module.exports = {
           },
           {
             name: `Linkedin`,
-            url: ``,
+            url: `https://www.linkedin.com/in/tue-ngo-a78508154`,
           },
         ],
       },
