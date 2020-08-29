@@ -74,8 +74,6 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
-module.exports = {
   siteMetadata: {
     // Used for the title template on pages other than the index site
     siteTitle: `Tue Ngo`,
@@ -95,4 +93,4 @@ module.exports = {
     author: `@tuengo`,
     // Links displayed in the header on the right side
   },
-};
+}
