@@ -35,7 +35,7 @@ build/Release
 # Dependency directories
 **/node_modules/**
 
-!node_modules/@lekoarts
+!**/node_modules/@lekoarts
 
 jspm_packages
 
