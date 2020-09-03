@@ -5,25 +5,6 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
-  siteMetadata: {
-    // Used for the title template on pages other than the index site
-    siteTitle: `Tue Ngo`,
-    // Default title of the page
-    siteTitleAlt: `Tôi Viết`,
-    // Can be used for e.g. JSONLD
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://toitro.me`,
-    // Used for SEO
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
-    // Will be set on the <html /> tag
-    siteLanguage: `en`,
-    // Used for og:image and must be placed inside the `static` folder
-    siteImage: `/banner.jpg`,
-    // Twitter Handle
-    author: `@tuengo`,
-    // Links displayed in the header on the right side
-  },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
@@ -97,5 +78,23 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-  
+  siteMetadata: {
+    // Used for the title template on pages other than the index site
+    siteTitle: `Tue Ngo`,
+    // Default title of the page
+    siteTitleAlt: `Tôi trọ`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://toitro.me`,
+    // Used for SEO
+    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@tuengo`,
+    // Links displayed in the header on the right side
+  },
 }
