@@ -3,6 +3,7 @@ require(`dotenv`).config({
 })
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const path = require(`path`)
 
 module.exports = {
   plugins: [
@@ -69,6 +70,15 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {
@@ -80,7 +90,7 @@ module.exports = {
   ].filter(Boolean),
   siteMetadata: {
     // Used for the title template on pages other than the index site
-    siteTitle: `Tue Ngo`,
+    siteTitle: `健児's home`,
     // Default title of the page
     siteTitleAlt: `Tôi trọ`,
     // Can be used for e.g. JSONLD
