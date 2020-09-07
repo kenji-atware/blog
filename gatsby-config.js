@@ -90,7 +90,7 @@ module.exports = {
   ].filter(Boolean),
   siteMetadata: {
     // Used for the title template on pages other than the index site
-    siteTitle: `健児's home`,
+    siteTitle: `Ngô Toàn Minh Tuệ - 健児`,
     // Default title of the page
     siteTitleAlt: `Tôi trọ`,
     // Can be used for e.g. JSONLD
@@ -102,7 +102,7 @@ module.exports = {
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
-    siteImage: `/banner.jpg`,
+    siteImage: `/banner.`,
     // Twitter Handle
     author: `@tuengo`,
     // Links displayed in the header on the right side
