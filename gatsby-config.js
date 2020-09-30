@@ -94,7 +94,7 @@ module.exports = {
     // Default title of the page
     siteTitleAlt: `Tôi trọ`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Ngô Toàn Minh Tuệ - 健児`,
+    siteHeadline: `Ngô Toàn Minh Tuệ - 健児git push`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://toitro.me`,
     // Used for SEO
